@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mind Path Lab | Sample Wellness Blueprint</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: '#0F172A', // Slate 900
+              surface: '#1E293B',    // Slate 800
+              accent: {
+                DEFAULT: '#2DD4BF', // Teal 400
+                dark: '#14B8A6',   // Teal 500
+              },
+              textPrimary: '#E2E8F0',   // Slate 200
+              textSecondary: '#94A3B8', // Slate 400
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            }
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss">
+      @layer base {
+        html {
+          font-family: 'Inter', sans-serif;
+          scroll-behavior: smooth;
+        }
+        body {
+            background-color: #0F172A; /* bg-background */
+            color: #E2E8F0; /* text-textPrimary */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+      }
+    </style>
+</head>
+<body class="bg-background">
+    <div class="container mx-auto px-6 py-12 md:py-20">
+        <div class="max-w-5xl mx-auto bg-surface rounded-2xl shadow-2xl shadow-slate-900/50 p-6 md:p-10 border border-slate-700">
+              <header class="text-left border-b border-slate-700 pb-6">
+                <h1 class="text-3xl font-bold text-textPrimary">Mental Wellness Blueprint</h1>
+                <p class="text-textSecondary mt-1">
+                  <span class="font-semibold text-textSecondary/80">For:</span> Alex Ray | <span class="font-semibold text-textSecondary/80">Submission ID:</span> SUB-1756142594627-ikatj3j
+                </p>
+              </header>
+
+              <div class="grid md:grid-cols-3 gap-8 mt-8 items-center">
+                <div class="md:col-span-1 flex flex-col items-center justify-center text-center p-6 bg-background rounded-xl">
+                  <h2 class="text-xl font-semibold text-textPrimary mb-4">Overall Score</h2>
+                  <div class="relative w-40 h-40 flex items-center justify-center">
+                      <svg class="absolute top-0 left-0 w-full h-full" viewBox="0 0 100 100">
+                          <circle class="text-slate-700" stroke-width="8" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" />
+                          <circle class="text-green-400" stroke-width="8" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" stroke-dasharray="282.6" stroke-dashoffset="62.172" stroke-linecap="round" transform="rotate(-90 50 50)" />
+                      </svg>
+                      <div class="text-center">
+                        <div class="text-5xl font-bold text-green-400">78</div>
+                        <div class="text-lg font-semibold text-green-400 -mt-1">Good</div>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="md:col-span-2 p-6 bg-background rounded-xl">
+                    <h2 class="text-xl font-semibold text-textPrimary text-center mb-4">Wellness Domains</h2>
+                    <div class="space-y-4">
+                        <!-- Emotional -->
+                        <div class="flex items-center">
+                            <span class="w-28 text-textSecondary">Emotional</span>
+                            <div class="flex-1 bg-slate-700 rounded-full h-4">
+                                <div class="bg-green-400 h-4 rounded-full" style="width: 82%;"></div>
+                            </div>
+                            <span class="w-12 text-right font-bold text-green-400">82</span>
+                        </div>
+                        <!-- Social -->
+                         <div class="flex items-center">
+                            <span class="w-28 text-textSecondary">Social</span>
+                            <div class="flex-1 bg-slate-700 rounded-full h-4">
+                                <div class="bg-yellow-400 h-4 rounded-full" style="width: 65%;"></div>
+                            </div>
+                            <span class="w-12 text-right font-bold text-yellow-400">65</span>
+                        </div>
+                        <!-- Psychological -->
+                         <div class="flex items-center">
+                            <span class="w-28 text-textSecondary">Psychological</span>
+                            <div class="flex-1 bg-slate-700 rounded-full h-4">
+                                <div class="bg-yellow-400 h-4 rounded-full" style="width: 75%;"></div>
+                            </div>
+                            <span class="w-12 text-right font-bold text-yellow-400">75</span>
+                        </div>
+                        <!-- Physical -->
+                         <div class="flex items-center">
+                            <span class="w-28 text-textSecondary">Physical</span>
+                            <div class="flex-1 bg-slate-700 rounded-full h-4">
+                                <div class="bg-green-400 h-4 rounded-full" style="width: 88%;"></div>
+                            </div>
+                            <span class="w-12 text-right font-bold text-green-400">88</span>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="mt-10">
+                <h3 class="text-2xl font-semibold text-textPrimary border-b border-slate-700 pb-3 mb-6">Detailed Domain Analysis</h3>
+                <div class="grid md:grid-cols-2 gap-x-8 gap-y-6">
+                    <div>
+                        <h4 class="text-xl font-semibold text-textPrimary">😊 Emotional Wellness</h4>
+                        <p class="mt-1 text-textSecondary">Reflects your ability to understand and manage your emotions, cope with challenges, and maintain a positive outlook. High scores indicate strong emotional regulation.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-semibold text-textPrimary">🤝 Social Wellness</h4>
+                        <p class="mt-1 text-textSecondary">Pertains to the relationships you have and how you interact with others. This score suggests opportunities to deepen social connections.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-semibold text-textPrimary">🧠 Psychological Wellness</h4>
+                        <p class="mt-1 text-textSecondary">Involves having a strong sense of purpose, autonomy, and personal growth. A good score here points to a healthy and curious mindset.</p>
+                    </div>
+                     <div>
+                        <h4 class="text-xl font-semibold text-textPrimary">🏃 Physical Wellness</h4>
+                        <p class="mt-1 text-textSecondary">Covers aspects like sleep, nutrition, and physical activity that form the foundation for mental health. This area is a key strength.</p>
+                    </div>
+                </div>
+              </div>
+
+              <div class="mt-10">
+                <h3 class="text-2xl font-semibold text-textPrimary border-b border-slate-700 pb-3 mb-4">Recommendations</h3>
+                <div class="bg-yellow-400/10 border-l-4 border-yellow-400 p-4 rounded-r-lg">
+                    <h4 class="font-semibold text-yellow-300">Focus Area: Social Connection & Stress Management</h4>
+                    <p class="text-yellow-400 mt-1">Your blueprint highlights an opportunity to enhance your support systems. Consider these actionable steps:</p>
+                    <ul class="list-disc list-inside mt-2 text-yellow-400 space-y-1">
+                        <li>Schedule one meaningful social activity per week.</li>
+                        <li>Practice a 5-minute mindfulness exercise daily.</li>
+                    </ul>
+                </div>
+              </div>
+              
+              <div class="mt-12 text-center text-xs text-textSecondary/50 italic">
+                  Disclaimer: This blueprint is a wellness tool and not a medical diagnosis. It is designed to provide insights and guide personal growth.
+              </div>
+        </div>
+    </div>
+</body>
+</html>
