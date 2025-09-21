@@ -1,6 +1,14 @@
 import React from 'react';
+import { formHtmlContent } from './formPageContent';
 
 const Hero: React.FC = () => {
+  const handleOpenForm = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const blob = new Blob([formHtmlContent], { type: 'text/html' });
+    const url = URL.createObjectURL(blob);
+    window.open(url, '_blank');
+  };
+
   return (
     <section className="pt-32 pb-20 lg:pt-40 lg:pb-32 px-6 relative overflow-hidden">
       {/* Background glow effect */}
@@ -26,9 +34,8 @@ const Hero: React.FC = () => {
               View Sample Report
             </a>
             <a
-              href="form.html"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
+              onClick={handleOpenForm}
               className="block w-full text-center bg-accent text-background font-bold py-4 px-8 rounded-full text-lg hover:bg-accent-dark transition-all duration-300 transform hover:scale-105 shadow-[0_0_25px_rgba(45,212,191,0.5)] hover:shadow-[0_0_35px_rgba(45,212,191,0.7)]"
             >
               Get Early Access

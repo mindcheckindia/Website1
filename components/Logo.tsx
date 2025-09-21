@@ -10,9 +10,9 @@ const Logo: React.FC = () => {
         The font 'Outfit' is used for a modern, professional look. Ensure it's linked in your HTML.
       */}
       <svg
-        width="240"
+        width="260"
         height="42"
-        viewBox="0 0 240 42"
+        viewBox="0 0 260 42"
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
       >
