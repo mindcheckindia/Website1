@@ -10,7 +10,7 @@ const Header: React.FC = () => {
         </a>
         <nav>
           <a
-            href="/form.html"
+            href="form.html"
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent font-semibold py-2 px-5 rounded-full border border-accent/50 bg-accent/10 hover:bg-accent/20 transition-all duration-300 transform hover:scale-105 shadow-[0_0_15px_rgba(45,212,191,0.2)] hover:shadow-[0_0_20px_rgba(45,212,191,0.4)]"

@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
               View Sample Report
             </a>
             <a
-              href="/form.html"
+              href="form.html"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center bg-accent text-background font-bold py-4 px-8 rounded-full text-lg hover:bg-accent-dark transition-all duration-300 transform hover:scale-105 shadow-[0_0_25px_rgba(45,212,191,0.5)] hover:shadow-[0_0_35px_rgba(45,212,191,0.7)]"
