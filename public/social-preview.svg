@@ -1,0 +1,50 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+  
+  <defs>
+    <linearGradient id="logoFillGradient" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="logoStrokeGradient" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#BEF264" />
+      <stop offset="100%" stop-color="#84CC16" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0F172A"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Logo and Text Group -->
+  <g transform="translate(600, 315)">
+    <!-- Logo - scaled up -->
+    <g transform="translate(-195, -150) scale(1.5)">
+      <g transform="translate(-12.4, -11.4) scale(1.8)">
+        <path d="M16 24V12C16 12 16 8 20 8C24 8 24 12 24 12" stroke="url(#logoStrokeGradient)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+        <path d="M16 12C16 12 16 8 12 8C8 8 8 12 8 12" stroke="url(#logoStrokeGradient)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+        <path d="M24 24H8C8 24 10 28 16 28C22 28 24 24 24 24Z" fill="url(#logoFillGradient)" />
+      </g>
+      <text class="title" x="42" y="18" font-size="18" font-weight="700" fill="#E2E8F0">
+        Mind Path Lab
+      </text>
+      <text class="title" x="42" y="35" font-size="11" font-weight="400" fill="#94A3B8">
+        Mental wellness, simplified.
+      </text>
+    </g>
+
+    <!-- Title Text -->
+    <text class="title" x="0" y="50" font-size="72" font-weight="800" fill="#E2E8F0" text-anchor="middle">
+      Your mind's blueprint
+    </text>
+    <text class="title" x="0" y="130" font-size="72" font-weight="800" fill="#2DD4BF" text-anchor="middle">
+      Revealed
+    </text>
+  </g>
+</svg>
