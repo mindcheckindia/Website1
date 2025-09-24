@@ -22,7 +22,10 @@ const Hero: React.FC = () => {
             <span className="text-accent">Revealed</span>
           </h1>
           <p className="mt-6 text-lg md:text-xl text-textSecondary max-w-3xl mx-auto">
-            Mind Path Lab's proprietary AI-powered assessment, built on peer-reviewed research and clinical science, creates a wellness blueprint with the clarity and precision of a physical check-up. We're now granting early access for a limited time to users who can help shape our product with their feedback.
+            Mind Path Lab's proprietary AI-powered assessment, built on peer-reviewed research and clinical science, creates a wellness blueprint with the clarity and precision of a physical check-up.
+          </p>
+          <p className="mt-4 text-md md:text-lg text-textSecondary/80 max-w-3xl mx-auto">
+            We're now granting early access for a limited time to users who can help shape our product with their feedback.
           </p>
           <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-xl mx-auto">
             <a
