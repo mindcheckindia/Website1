@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Intro from './components/ProblemSolution';
 import Mission from './components/Mission';
 import HowItWorks from './components/HowItWorks';
+import ValueProposition from './components/ValueProposition';
 import Pillars from './components/WhyMindcheck';
 import Footer from './components/Footer';
 import StarryBackground from './components/StarryBackground';
@@ -19,6 +20,7 @@ const App: React.FC = () => {
           <Intro />
           <Mission />
           <HowItWorks />
+          <ValueProposition />
           <Pillars />
         </main>
         <Footer />

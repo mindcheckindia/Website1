@@ -11,7 +11,7 @@ const Intro: React.FC = () => {
             a <span className="text-accent">mystery</span>
           </h2>
           <p className="mt-6 text-lg md:text-xl text-textSecondary max-w-3xl mx-auto">
-            For too long, understanding our own mental state has been a guessing game. We delay seeking clarity—often because we don't recognize the symptoms or simply don't know where to start. Research shows this delay leads to more severe challenges and a harder path to recovery. It’s time to break the cycle.
+            For too long, understanding our own mental state has been a guessing game. We search online or try prompting AI chatbots, often getting vague or inaccurate results. We delay seeking professional clarity because we don't know where to start, which can lead to more severe challenges down the road. It’s time for a process grounded in science, accelerated by technology, and guided by human expertise.
           </p>
         </div>
       </div>
