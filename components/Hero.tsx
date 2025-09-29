@@ -106,7 +106,10 @@ const Hero: React.FC = () => {
           </div>
           
           <p className="mt-16 text-lg md:text-xl text-textSecondary max-w-3xl mx-auto">
-             Our process combines science, AI, and human oversight to give you the clarity and ease of a physical check-up, saving you weeks of time and money on your mental wellness journey.
+            Our mental wellness solution combines the best of science, AI, and human oversight to give you the clarity and ease of dealing with mental health in the same manner as your physical health.
+          </p>
+          <p className="mt-6 text-lg md:text-xl text-textSecondary max-w-3xl mx-auto">
+            Through our approach, you will not just save significant amounts of time, energy and resources, but also gain the confidence and direction to drive your own unique journey.
           </p>
           
           <p className="mt-8 text-sm md:text-base text-textSecondary/80 max-w-3xl mx-auto">
